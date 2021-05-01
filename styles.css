@@ -1,0 +1,14 @@
+#play {
+    background: red;
+    display: flex;
+    justify-content:space-around;
+}
+
+div {
+    background-color:antiquewhite;
+}
+
+p {
+    max-width: 25%;
+    margin: auto;
+}
