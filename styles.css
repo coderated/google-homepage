@@ -1,14 +1,43 @@
-#play {
-    background: red;
+header {
     display: flex;
-    justify-content:space-around;
+    justify-content: end;
+    padding: 1%;
 }
 
-div {
-    background-color:antiquewhite;
-}
-
-p {
-    max-width: 25%;
+#search > img {
+    max-width:100%;
     margin: auto;
+    background-color: aqua;
+}
+
+#search > input {
+    text-align: center;
+}
+
+
+footer {
+    background-color:rgb(241, 241, 241);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+#location {
+    padding: 1% 0 0 1%;
+}
+
+#bottom_links {
+    text-decoration: none;
+    display: flex;
+    background-color:rgb(241, 241, 241);
+}
+
+#bottom_links > ul {
+    display: flex;
+    padding: 1% 0 1% 1%;
+    background-color: red;
+}
+
+#bottom_links li {
+    /* padding-left: 5%; */
 }
